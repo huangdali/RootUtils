@@ -3,6 +3,7 @@
 
 ## 解决办法
 Firefly论坛有一篇关于获取root权限的帖子（[传送门](http://dev.t-firefly.com/thread-300-1-1.html)），前提是设备要能连接到电脑，通过adb来操作。
+
 1.设备连接到电脑，通过ADB调试；
 
 2.下载附件root.tar和quick_root.tar，解压缩quick_root.tar(终端运行tar xf quick_root.tar)--->最好在电脑上解压
@@ -32,9 +33,9 @@ root@rk3288:/system/usr # ./quick_root.sh
 有没有更简单的方式，比如一键获取root权限，有的，下面就是解决方案
 
 > 一键获取Root权限工具RootUtils-->方式一： https://fir.im/7pw9
-> 方式二：（扫描二维码） ![这里写图片描述](https://img-blog.csdn.net/20180829144712527?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMTM3NzIyNjk3/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 用法：点击**“获取Root权限”**，稍等片刻，设备重启完成即可，真正的一键获取
+
 ![这里写图片描述](https://img-blog.csdn.net/2018082914451033?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxMTM3NzIyNjk3/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 下面来说说如何实现，博主真好，源码都公布了，还不点个赞（不想了解的就跳过了哈）
